@@ -1,0 +1,64 @@
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.376s][info][gc] Allocation Stall (http-worker-118) 201.527ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.376s][info][gc] Allocation Stall (dispatch-executor-3) 2144.898ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.376s][info][gc] Allocation Stall (query-management-4) 2145.585ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.376s][info][gc] Allocation Stall (statement-timeout-2) 2207.582ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.376s][info][gc] Allocation Stall (dispatcher-query-247) 2205.831ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.376s][info][gc] Allocation Stall (http-worker-121) 167.360ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.376s][info][gc] Allocation Stall (dispatch-executor-2) 2135.672ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.376s][info][gc] Allocation Stall (query-management-2) 2129.156ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.376s][info][gc] Allocation Stall (dispatch-executor-1) 2184.537ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.376s][info][gc] Allocation Stall (http-worker-520) 1681.008ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.376s][info][gc] Allocation Stall (http-worker-341) 2002.760ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.377s][info][gc] Allocation Stall (Query-20220812_114354_14959_ptaua-625) 1895.682ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.377s][info][gc] Allocation Stall (execution-query-purger) 2090.775ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | 2022-08-12T11:43:56.104Z	INFO	dispatcher-query-247	io.trino.event.QueryMonitor	TIMELINE: Query 20220812_114353_14954_ptaua :: Transaction:[a9b50629-543d-4341-a932-1cca380c8b03] :: elapsed 36ms :: planning 6ms :: waiting 0ms :: scheduling 2ms :: running 15ms :: finishing 13ms :: begin 2022-08-12T11:43:53.857Z :: end 2022-08-12T11:43:53.893Z
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.380s][info][gc] Allocation Stall (drain-state-query-manager) 1893.720ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.380s][info][gc] Allocation Stall (http-worker-451) 1857.539ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.380s][info][gc] Allocation Stall (Query-20220812_114353_14957_ptaua-201) 2132.172ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.380s][info][gc] Allocation Stall (Query-20220812_114353_14956_ptaua-566) 2207.392ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.380s][info][gc] Allocation Stall (Query-20220812_114354_14960_ptaua-501) 1854.013ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.380s][info][gc] Allocation Stall (http-worker-298) 1814.362ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.380s][info][gc] Allocation Stall (dispatcher-query-44) 1763.952ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.380s][info][gc] Allocation Stall (http-worker-531) 1709.357ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.380s][info][gc] Allocation Stall (http-worker-412) 1662.088ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.380s][info][gc] Allocation Stall (http-worker-450) 1546.790ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [754.440s][info][gc] GC(220) Garbage Collection (Allocation Stall) 2470M(80%)->2902M(94%)
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (http-remote-store-dynamic) 1129.242ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (bin-packing-node-allocator) 2076.335ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (query-management-4) 1840.940ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (http-client-failure-detector-scheduler-1) 1132.777ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (Announcer-3) 954.172ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (http-client-failure-detector-36) 2526.986ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (drain-state-query-manager) 2503.770ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (http-client-exchange-scheduler-1) 2096.182ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (http-client-failure-detector-38) 2027.097ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (http-worker-297) 2059.982ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (dispatch-executor-3) 1920.599ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (task-management-3) 2532.881ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (http-worker-345) 2604.004ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (query-management-1) 1849.585ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (ResourceGroupManager) 1424.433ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (node-state-poller-0) 1133.767ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (http-client-scheduler-261) 2324.666ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (execution-query-purger) 2253.408ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.302s][info][gc] Allocation Stall (http-client-scheduler-72) 2372.977ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [757.324s][info][gc] GC(221) Garbage Collection (Allocation Stall) 2950M(96%)->2334M(76%)
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [760.360s][info][gc] Allocation Stall (drain-state-query-manager) 367.693ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [760.360s][info][gc] Allocation Stall (http-client-memoryManager-60) 290.842ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [760.360s][info][gc] Allocation Stall (http-worker-141) 612.593ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [760.360s][info][gc] Allocation Stall (statement-response-34) 154.733ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [760.360s][info][gc] Allocation Stall (execution-query-purger) 327.409ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [760.368s][info][gc] GC(222) Garbage Collection (Allocation Stall) 2386M(78%)->2872M(93%)
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [763.258s][info][gc] Allocation Stall (drain-state-query-manager) 1031.587ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [763.258s][info][gc] Allocation Stall (dispatch-executor-2) 488.399ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [763.258s][info][gc] Allocation Stall (ContinuousTaskStatusFetcher-20220812_114354_14958_ptaua.0.0.0-637) 936.436ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [763.258s][info][gc] Allocation Stall (http-worker-341) 954.590ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [763.258s][info][gc] Allocation Stall (query-management-0) 696.778ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [763.258s][info][gc] Allocation Stall (ContinuousTaskStatusFetcher-20220812_114354_14962_ptaua.0.0.0-535) 413.907ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [763.258s][info][gc] Allocation Stall (http-client-node-manager-49) 954.270ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [763.258s][info][gc] Allocation Stall (http-remote-store-dynamic) 955.467ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [763.258s][info][gc] Allocation Stall (query-management-1) 477.325ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [763.258s][info][gc] Allocation Stall (execution-query-purger) 597.087ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [763.258s][info][gc] Allocation Stall (http-worker-141) 52.266ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [763.258s][info][gc] Allocation Stall (http-worker-451) 1043.655ms
+trino_test_trino-coordinator.1.ljc8l0l1ysgx@jp    | [763.273s][info][gc] GC(223) Garbage Collection (Allocation Stall) 2872M(93%)->2408M(78%)

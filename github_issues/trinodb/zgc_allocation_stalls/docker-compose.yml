@@ -1,0 +1,65 @@
+version: '3.7'
+
+services:
+
+  #---------------------------------------------------------------------------
+  # trino coordinator
+  #---------------------------------------------------------------------------
+  trino-coordinator:
+    image: trinodb/trino:392
+    deploy:
+      mode: replicated
+      replicas: 1
+      resources:
+        limits:
+          cpus: "4.0"
+          memory: "4g"
+      restart_policy:
+        condition: on-failure
+    environment:
+      JAVA_TOOL_OPTIONS: "-XX:MaxRAM=4g -XX:ActiveProcessorCount=4"
+    volumes:
+      - ${PWD}/config/coordinator:/etc/trino
+      - ${PWD}/config/catalog:/etc/trino/catalog:ro
+    dns:
+      - 8.8.8.8
+    networks:
+      - trinonet
+    ports:
+      - "8889:8080"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200m"
+
+  #---------------------------------------------------------------------------
+  # trino worker
+  #---------------------------------------------------------------------------
+  trino-worker:
+    image: trinodb/trino:392
+    deploy:
+     mode: replicated
+     replicas: 1
+     resources:
+       limits:
+         cpus: "8.0"
+         memory: "4g"
+     restart_policy:
+       condition: on-failure
+    environment:
+      JAVA_TOOL_OPTIONS: "-XX:MaxRAM=4g -XX:ActiveProcessorCount=8"
+    volumes:
+      - ${PWD}/config/worker:/etc/trino
+      - ${PWD}/config/catalog:/etc/trino/catalog:ro
+    dns:
+      - 8.8.8.8
+    networks:
+      - trinonet
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200m"
+
+networks:
+  trinonet:
+    external: false
